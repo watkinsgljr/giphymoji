@@ -1,0 +1,17 @@
+
+
+#button-container {
+    width: 85%;
+    height: 10rem;
+    background-color: white;
+    border: dashed darkcyan 5px;
+    margin: 5rem auto;
+    position: relative;
+}
+
+.query-button {
+    height: 3rem;
+    width: 6rem;
+    margin: 1rem;
+
+}
