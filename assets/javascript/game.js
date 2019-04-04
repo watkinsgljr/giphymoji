@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     $(document).on("click", ".query-button", function() {
         var emotion = $(this).text();
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=TzGZCgR5pjsTx9K7Re8DiK3EInjsmd9d&limit=9"
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + emotion + "&api_key=TzGZCgR5pjsTx9K7Re8DiK3EInjsmd9d&limit=9"
 
         $.ajax({
             url: queryURL,
